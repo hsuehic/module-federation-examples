@@ -11,6 +11,10 @@
     "shell"
   ],
   "scripts": {
-    "build": "yarn workspaces run build"
+    "build": "pnpm --filter=!root build",
+    "serve": "pnpm --filter=!root serve"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
   }
 }

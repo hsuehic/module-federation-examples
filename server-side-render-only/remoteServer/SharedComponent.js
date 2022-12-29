@@ -1,5 +1,5 @@
 import React from 'react';
 
-const SharedComponent = () => <div>Shared Component2222</div>;
+const SharedComponent = () => <div>Shared Component</div>;
 
 export default SharedComponent;

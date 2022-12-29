@@ -1,0 +1,4 @@
+packages:
+ - remote1
+ - remote2
+ - shell
